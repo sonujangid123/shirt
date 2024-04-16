@@ -1,11 +1,25 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 body{
     background-color:  skyblue;
 }
+h3{
+
+    margin-top: 5px;
+}
+.span1{
+    margin-left: 25px;
+
+
+}
+.span2{
+    margin-left: 42px;
+}
+
 .box1{
     width: 300px;
     margin-left: 500px;
@@ -18,7 +32,7 @@ body{
 }
 .box1 img{
     width: 300px;
-    height: 300px;
+    height: 370px;
     /* border-radius: 10px; */
 
 }
@@ -28,7 +42,7 @@ body{
     background-color: white;
     color: black;
     left: 0;
-    bottom: -127px;
+    bottom: -182px;
     width: 100%;
     /* padding: 0 1rem; */
     transition: .5s ease-in-out;
@@ -40,42 +54,43 @@ body{
 }
 .color-div{
 
-    margin-left: 15px;
+    margin-left: 25px;
+}
+.color{
+
+    width: 25px;
+    height: 25px;
+    margin: 2px;
 }
 .one{
-    width: 25px;
-    height: 25px;
+   
     background-color: yellow;
-    margin: 2px;
+    
 }
 .two{
-    width: 25px;
-    height: 25px;
+    
     background-color: brown;
-    margin: 2px;
+    
 
 }
 .three{
-    width: 25px;
-    height: 25px;
+  
     background-color: green;
-    margin: 2px;
+
 
 }
 .four{
-    width: 25px;
-    height: 25px;
+   
     background-color: pink;
-    margin: 2px;
+
 
 
 
 }
 .five{
-    width: 25px;
-    height: 25px;
+    
     background-color: skyblue;
-    margin: 2px;
+   
 
 }
 .color-div{
@@ -90,11 +105,34 @@ button{
     height: 25px;
    margin-top: 10px;
    margin-bottom: 10px;
-   margin-left: 15px;
+   margin-left: 25px;
     border-radius: 5px;
 
 }
 .m-div{
+    padding: 5px;
     color: white;
     background-color: green;
+}
+.pera1{
+    margin-left: 25px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.span3{
+   
+    
+}
+.main-span{
+    margin-left: 25px;
+}
+.color-p{
+    color: gray;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+.pera2{
+    margin-left: 25px;
+    margin-bottom: 15px;
+    margin-top: 10px;
 }
